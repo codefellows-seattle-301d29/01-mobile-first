@@ -7,10 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-  <link rel="stylesheet" href="styles/normalize.css">
+  <link rel="stylesheet" href="vendor/styles/base/normalize.css">
 
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  <link rel="stylesheet" href="styles/icons.css">
+  <link rel="stylesheet" href="vendor/styles/icons.css">
 
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
 
@@ -30,19 +30,20 @@
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- PUT YOUR RESPONSE HERE -->
-
+   
     <section class="heading-group-h1">
+        
       <h1>
         Kilovolt Blog!
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
-    <p class="hamburger">
-        <img src ="vendor/styles/fonts/three.svg">
-      </p>
+    
     
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      
+      <div class="icon-menu"></div>
        
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
@@ -59,7 +60,7 @@
             <h1>Bacon Ipsum</h1>
             <!-- REVIEW: Look closely at the HTML structure of this "byline" div, as it will affect how you choose to target these elements in CSS. -->
             <div class="byline">
-              By <address><a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a></address>
+              By <a href="http://www.imdb.com/name/nm0000102/">Kevin Bacon</a>
               published <time pubdate="" datetime="2015-11-05" title="2015-11-05">about 718 days ago</time>
             </div>
           </header>

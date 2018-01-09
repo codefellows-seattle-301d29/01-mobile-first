@@ -1,15 +1,31 @@
-nav {
+ul {
     display: none;
 }
 
+.icon-menu {
+    height: 50px;
+    width: 50px;
+    float: right;
+}
+
 @media only screen and (min-width: 640px) {
+
+    
     
   
-    .hamburger {
+    .icon-menu {
       display: none;
     }
   
-    nav {
+    ul {
       display: block;
     }
   }
+
+  .icon-menu:hover~ul {
+      display: block;
+  }
+
+  
+
+  
