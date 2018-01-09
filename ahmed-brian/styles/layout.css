@@ -1,3 +1,12 @@
+.clearfix {
+    clear: both;
+}
+.pull-right {
+    float: right;
+}
+.pull-left {
+    float: left;
+}
 /* Header */
 .site-header {
     background-color: #FFE9AD;
