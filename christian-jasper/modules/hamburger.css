@@ -1,0 +1,32 @@
+body {
+  max-width: 640px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.icon-menu: {
+  display: block;
+}
+
+.main-nav:hover ul {
+  display: block;
+}
+
+
+ul {
+  list-style: none;
+}
+
+ul {
+  display: none;
+}
+
+
+@media only screen and (min-width: 640px) {
+  .icon-menu {
+    display: none;
+  }
+
+}
