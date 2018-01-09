@@ -3,16 +3,22 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
+  <!-- DONE: Add a meta tag to properly set the viewport and initial scale -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
+  <!-- DONE: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
+  <link rel="stylesheet" href="vendor/styles/normalize.css">
 
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <!-- DONE: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <link rel="stylesheet" href="vendor/styles/icons.css">
+  
+  <!-- DONE: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/layout.css">
+  <link rel="stylesheet" href="styles/modules.css">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
+  <!-- Stylesheets are linked. The Normalize file goes first because it removes any changes that a browser would implement. Next, the icons css file is loaded because it could be used later for dependences. After this, the base, layout, and modules are loaded in that order because each builds on the previous due to the SMACSS formatting.  -->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
@@ -21,22 +27,23 @@
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
-    <!-- PUT YOUR RESPONSE HERE -->
-
+    <!-- Clearfix is attached to any parent element where you need to clear floats.  It is a cleaner/nicer fix than previously used due to old browser hacks. -->
+    
     <section class="heading-group-h1">
       <h1>
         Kilovolt Blog!
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
+    <p class="icon-menu"></p>
     <nav class="main-nav">
-      <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      <!-- DONE: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
 
-      <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
-        <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
-        <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
-        <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
+        <ul class="clearfix list-items" >
+          <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+          <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
+          <li class="tab"><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
+          <li class="tab"><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
     </nav>
   </header>
