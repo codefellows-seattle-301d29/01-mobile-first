@@ -1,0 +1,33 @@
+.fa-bars, .fa {
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    font-size: 3em;
+    font-weight: bolder;
+
+}
+
+nav > ul { display: none; }
+nav > ul > li {
+  font-family: times;
+  color: #888;
+  font-size: 2em;
+  width: 100%;
+  border-bottom: 1px solid gray;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.fa-bars:hover, .fa:hover ~ ul { display: block; }
+
+
+
+@media only screen and (min-width: 640px) {
+    .fa, .fa-bars {
+        display: none;
+    }
+
+    nav > ul { display: block; }
+}

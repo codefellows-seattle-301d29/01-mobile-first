@@ -1,0 +1,23 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 3em;
+}
+
+h2 {
+  font-size: 2.5em;
+}
+
+a {
+  text-decoration: none;
+  color: #888;
+  font-weight: bold;
+}
+
+img {
+    max-width: 100%;
+}
