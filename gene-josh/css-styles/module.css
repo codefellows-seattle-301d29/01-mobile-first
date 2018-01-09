@@ -1,0 +1,30 @@
+img {
+    max-width: 100%;
+}
+
+@media only screen and (min-width:640px) {
+    
+    .icon-menu {
+        display: none;
+    }
+
+    nav {
+        display: block;
+    }
+
+}
+
+@media only screen and (max-width:640px) {
+    .icon-menu {
+        display: block;
+        float: right;
+        margin-right: 10px;
+    }
+    .icon-menu:hover {
+        
+    }
+
+    nav {
+        display: none;
+    }
+}
