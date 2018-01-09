@@ -2,19 +2,17 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
 
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
-
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-
-  <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
+  <!--  Base css files should be loaded first so that they can be overwritten by more specific files, a.k.a cascading from general to specific. -->
 
   <!-- REVIEW: This is the favicon -->
+  <link rel="stylesheet" href="vendor/styles/normalise.css">
+  <link rel="stylesheet" href="vendor/styles/icons.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/modules.css">
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
 </head>
 <body>
