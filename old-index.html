@@ -8,13 +8,11 @@
   <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
   <link rel="stylesheet" href="vendor/styles/normalize.css">
   <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
-  <link rel="stylesheet" href="styles/icons.css">
+  <link rel="stylesheet" href="vendor/styles/fonts">
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" href="styles/module.css">
-  <link rel="stylesheet" href="styles/base/base.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  
-  
+  <link rel="stylesheet" href="base/base.css">
+  <link rel="stylesheet" href="module/images">
+  <link rel="stylesheet" href="layout">
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
   <!-- the reset file loads first so that it doesnt affect the layout later.  Fonts come next to be available as needed. Base comes next to set up default styles.  Then the Modules which are specific features. -->
@@ -36,8 +34,8 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-    <img class="hamburger-menu-img" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/1200px-Hamburger_icon.svg.png">
-      <ul class="ul-class">
+
+      <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
