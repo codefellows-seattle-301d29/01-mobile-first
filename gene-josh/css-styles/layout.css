@@ -1,0 +1,11 @@
+.byline {
+    display: flex;
+    align-items: left;
+    justify-content: space-between;
+    width: 320px;
+}
+
+.main-nav li{
+    padding-bottom: 20px;
+    margin-left: 0px;
+}
