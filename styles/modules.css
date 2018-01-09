@@ -1,0 +1,11 @@
+
+.main-nav {
+    display: block;
+  }
+  
+  @media only screen and (min-width: 500px) {
+  
+.main-nav {
+    display: none;
+    }
+  }

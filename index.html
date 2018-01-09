@@ -3,16 +3,25 @@
 <head>
   <meta charset="UTF-8">
   <title>Lab 1</title>
-  <!-- TODO: Add a meta tag to properly set the viewport and initial scale -->
+ 
+  <meta name= "viewport" content="width=device-width, initial-scale=1">
 
-  <!-- TODO: Add a link to a normalize.css file, which should be in your vendor/styles/ directory -->
+  <link rel= "stylesheet" href= "vendor/styles/normalize.css">
 
-  <!-- TODO: Link in the provided styles/icons.css file so that you can use icon fonts -->
+  <link rel= "stylesheet" href= "styles/icons.css">
 
-  <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
+  <link rel= "stylesheet" href= "styles/base.css">
+
+  <link rel= "stylesheet" href= "styles/layout.css">
+
+  <link rel= "stylesheet" href= "styles/modules.css">
+  
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  <!-- PUT YOUR RESPONSE HERE -->
+<!-- First, we want to load normalize.css to reset our page's stylesheet. Next, we want to load icons 
+because they are part of our page content. Finally, we want to load base, layout, and modules in that order
+of importance becuase  base.css is the page's foundation, while layout an modules work with smaller parts of 
+HTML-->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
@@ -21,7 +30,8 @@
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
-    <!-- PUT YOUR RESPONSE HERE -->
+    <!-- Using the ":after" class with a clear property on the bottom of the parent, we can clearfix trick to 
+    clear any floats. -->
 
     <section class="heading-group-h1">
       <h1>
@@ -31,6 +41,7 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
+      <p class="icon-menu"> </p>
 
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
