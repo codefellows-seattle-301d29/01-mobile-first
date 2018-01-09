@@ -1,3 +1,27 @@
-header {
-    background-color: FFE9AD;
+/* Header */
+.site-header {
+    background-color: #FFE9AD;
+    padding: 20px 20px 10px 10px;
+}
+.heading-group-h1 h1 {
+    margin: 0 0 0.67em 0;
+}
+.icon-menu {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+}
+.icon-menu::before {
+    font-size: 40px;
+}
+.byline address {
+    display: inline-block;
+}
+.byline {
+    color: #777;
+}
+.byline a {
+    text-decoration: none;
+    color: #777;
+    font-weight: 700;
 }
