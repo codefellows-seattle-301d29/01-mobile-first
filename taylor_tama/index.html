@@ -13,13 +13,14 @@
   <link rel="stylesheet" href="styles/icons.css">
 
   <!-- TODO: Link in your SMACSS-appropriate CSS files: base, layout, and modules -->
-  <link rel="stylesheet" href="styles/base.css">
-  <link rel="stylesheet" href="styles/layout.css">
-  <link rel="stylesheet" href="styles/modules.css">
+
+  <link rel="stylesheet" href="vendor/styles/base/base.css">
+  <link rel="stylesheet" href="vendor/styles/layout/layout.css">
+  <link rel="stylesheet" href="vendor/styles/module/modules.css">
 
 
   <!-- COMMENT: Explain the ordering of the loading of the stylesheets -->
-  We begin with normalize because it is a reset stylesheet. We load our SMACCS in order so that we don't overwrite anything that we use in the latter stylesheets. The SMACCS stylesheets are loaded base to module because base contains basic elements, layout contains structural elements and modules contain modular elements.
+  <!--We begin with normalize because it is a reset stylesheet. We load our SMACCS in order so that we don't overwrite anything that we use in the latter stylesheets. The SMACCS stylesheets are loaded base to module because base contains basic elements, layout contains structural elements and modules contain modular elements.-->
 
   <!-- REVIEW: This is the favicon -->
   <link rel="icon" type="image/x-icon" href="https://avatars2.githubusercontent.com/u/18607604?v=3&s=200">
@@ -36,9 +37,13 @@
       </h1>
       <h2>The shocking power of static pages</h2>
     </section>
+    <p class="hamburger">
+        <img src ="vendor/styles/fonts/three.svg">
+      </p>
+    
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-        <img src = "vendor/styles/fonts/three.svg">
+       
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
