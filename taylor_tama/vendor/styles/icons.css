@@ -40,8 +40,10 @@
 }
 .icon-menu:before {
 	content: "\e902";
-	height: 50px;
-	width: 50px;
+	display: block;
+	width: 45px;
+	height: 45px;
+	
 }
 .icon-link:before {
 	content: "\e903";

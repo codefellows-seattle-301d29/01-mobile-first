@@ -2,11 +2,7 @@ ul {
     display: none;
 }
 
-.icon-menu {
-    height: 50px;
-    width: 50px;
-    float: right;
-}
+
 
 @media only screen and (min-width: 640px) {
 
@@ -19,6 +15,15 @@ ul {
   
     ul {
       display: block;
+      margin-bottom: 30px;
+    }
+
+    li {
+        display: inline;
+        
+        padding-left: 30px;
+
+        
     }
   }
 

@@ -8,7 +8,14 @@
     position: absolute;
     top: 5px;
     right: 5px;
+    float: right;
+    font-size: 46px;
+    
 }    
+
+img {
+    float: right;
+}
     
     
 
@@ -32,6 +39,15 @@ body {
 }
 
 li {
-    text-decoration: none;
+    
     color: gray; 
+    font-size: 28px;
+    list-style: none;
+    padding-bottom: 20px;
+    
+}
+
+li a {
+    text-decoration: none;
+    color: gray;
 }
