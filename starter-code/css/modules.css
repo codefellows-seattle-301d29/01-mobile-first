@@ -1,0 +1,11 @@
+.fa-bars, .fa {
+    display: block;
+}
+
+
+
+@media only screen and (min-width: 640px) {
+    .fa, .fa-bars {
+        display: none;
+    }
+}

@@ -8,6 +8,7 @@
   <!--  Base css files should be loaded first so that they can be overwritten by more specific files, a.k.a cascading from general to specific. -->
 
   <!-- REVIEW: This is the favicon -->
+  <link rel="stylesheet" href="vendor/web-fonts-with-css/css/fontawesome-all.css">
   <link rel="stylesheet" href="vendor/styles/normalise.css">
   <link rel="stylesheet" href="vendor/styles/icons.css">
   <link rel="stylesheet" href="css/base.css">
@@ -20,7 +21,7 @@
   <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- PUT YOUR RESPONSE HERE -->
-
+    <!-- Clear allows an element to float all the way left or all the way right so that it is not touching another element on either the left, right, or both sides. -->
     <section class="heading-group-h1">
       <h1>
         Kilovolt Blog!
@@ -29,7 +30,7 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-
+      <i class="fa fa-bars" aria-hidden="true"></i>
       <ul>
         <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
