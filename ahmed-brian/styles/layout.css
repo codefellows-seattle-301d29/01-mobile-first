@@ -1,10 +1,13 @@
 /* Header */
 .site-header {
     background-color: #FFE9AD;
-    padding: 20px 20px 10px 10px;
+    padding: 20px 0px 10px 0px
 }
 .heading-group-h1 h1 {
     margin: 0 0 0.67em 0;
+}
+.heading-group-h1{
+    padding: 0 10px;
 }
 .icon-menu {
     position: absolute;
@@ -24,4 +27,23 @@
     text-decoration: none;
     color: #777;
     font-weight: 700;
+}
+
+/* Nav links */
+
+.main-nav ul {
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+
+}
+.main-nav ul li a{
+    text-decoration: none;
+    color: #777;
+}
+
+.main-nav ul li{
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(119, 119, 119, .7);
+
 }
