@@ -1,4 +1,4 @@
-# Project Name
+# Kilovolt Blog
 
 **Author**: David and Nicole
 **Version**: 1.0.1
