@@ -23,7 +23,7 @@
 </head>
 <body>
   <!-- REVIEW: Note that the header has multiple classes. This is a perfectly normal thing in HTML/CSS, even though we have not seen it very much so far. -->
-  <header class="site-header-clearfix">
+  <header class="site-header clearfix">
     <!-- COMMENT: Read the CSS Tricks article on clearfix, and explain in your own words how they are used. -->
     <!-- PUT YOUR RESPONSE HERE -->
     <!-- Read from perishablepress.com, clearfix is known as the easy clearing hack because it is used to clear floated divs without using structural markup. It is effective in resolving layout issues without the need to mix structure and presentation.  -->
@@ -35,16 +35,16 @@
     </section>
     <nav class="main-nav">
       <!-- TODO: Add a hamburger menu icon here, which will ultimately show/hide depending on screen width (desktop vs. mobile). -->
-      
+    <div class="icon-menu">
       <ul>
-        <li class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
+        <li class="nav"class="tab" data-content="articles"><a href="#" class="icon-home"> Home</a></li>
         <li class="tab" data-content="about"><a href="#" class="icon-address-book"> About</a></li>
         <li><a href="http://twitter.com/brookr" target="_blank" class="icon-twitter3"> Twitter</a></li>
         <li><a href="http://github.com/brookr" target="_blank" class="icon-github"> GitHub</a></li>
       </ul>
     </nav>
     <p class="hamburger">
-      <img src="vendor/styles/fonts/hamburger.svg">
+
     </p>
   </header>
   <main>
